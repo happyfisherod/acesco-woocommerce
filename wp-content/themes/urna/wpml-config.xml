@@ -1,0 +1,40 @@
+<wpml-config>
+	<admin-texts>
+        <key name="urna_tbay_theme_options">
+            <key name="media-logo" />
+            <key name="logo_img_width" />
+            <key name="logo_tablets_img_width" />
+            <key name="mobile-logo" />
+            <key name="logo_img_width_mobile" />
+            <key name="menu_mobile_title" />
+            <key name="menu_mobile_search_items" />
+            <key name="menu_mobile_no_esults" />
+            <key name="menu_mobile_search_splash" />
+            <key name="menu_mobile_one_select" />
+            <key name="menu_mobile_tab_one" />
+            <key name="menu_mobile_tab_scond" />
+            <key name="menu_mobile_second_select" />
+            <key name="main_menu_link_color" />
+            <key name="search_placeholder" />
+            <key name="search_text_categories" />
+            <key name="mobile_footer_menu_order_title" />
+            <key name="mobile_search_placeholder" />
+            <key name="custom_label_featured" />
+            <key name="woo_mini_cart_text" />
+            <key name="woo_wishlist_text" />
+            <key name="size_guide_title" />
+            <key name="title_recentview" />
+            <key name="empty_text_recentview" />
+            <key name="html_before_add_to_cart_btn" />
+            <key name="html_after_add_to_cart_btn" />
+            <key name="recentview_viewall_text" />
+            <key name="text_readmore" />
+        </key>
+    </admin-texts>
+    <custom-types>
+        <custom-type translate="1">tbay_brand</custom-type>
+        <custom-type translate="1">tbay_footer</custom-type>
+        <custom-type translate="1">tbay_megamenu</custom-type>
+        <custom-type translate="1">tbay_testimonial</custom-type>
+    </custom-types>
+</wpml-config> 

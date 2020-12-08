@@ -1,0 +1,4 @@
+2020-10-19T08:00:08+00:00 CRITICAL syntax error, unexpected ''urna'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' en /home/acesco93/public_html/stage/wp-content/themes/urna/page-templates/parts/topbar-account.php en la línea 22
+
+2020-10-19T08:00:10+00:00 CRITICAL syntax error, unexpected ''urna'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' en /home/acesco93/public_html/stage/wp-content/themes/urna/page-templates/parts/topbar-account.php en la línea 22
+

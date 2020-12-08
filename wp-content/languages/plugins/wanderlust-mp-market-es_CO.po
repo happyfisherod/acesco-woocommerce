@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woo-facturante\n"
+"POT-Creation-Date: 2017-03-28 14:39-0300\n"
+"PO-Revision-Date: 2020-09-03 11:04-0300\n"
+"Last-Translator: \n"
+"Language-Team: FY <hernan@fuegoyamana.com>\n"
+"Language: es_CO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: includes\n"
+
+#: admin/class-woo-facturante-admin.php:92
+msgid "Facturante Settings"
+msgstr "Facturante"
+
+#: admin/class-woo-facturante-admin.php:131
+#: admin/class-woo-facturante-admin.php:176
+#: admin/class-woo-facturante-admin.php:208
+#: admin/class-woo-facturante-admin.php:252
+msgid "DNI"
+msgstr "DNI"
+
+#: admin/class-woo-facturante-admin.php:148
+msgid "<strong>Error</strong>: DNI must be a numeric value!."
+msgstr "<strong>Error</strong>: DNI debe ser un valor numérico!"
+
+#: admin/class-woo-facturante-admin.php:152
+msgid "<strong>Error</strong>: DNI is required!."
+msgstr "<strong>Error</strong>: el DNI es obligatorio!."
+
+#: admin/class-woo-facturante-admin.php:209
+msgctxt "placeholder"
+msgid "enter your dni"
+msgstr "ingrese su dni"
+
+#: admin/class-woo-facturante-admin.php:228
+msgid "Your DNI is invalid."
+msgstr "El DNI es incorrecto."
+
+#: admin/class-woo-facturante-admin.php:279
+msgid "Facturante"
+msgstr "Facturante"
+
+#: admin/class-woo-facturante-admin.php:308
+#: admin/class-woo-facturante-admin.php:345
+msgid "create invoice"
+msgstr "Crear factura"
+
+#: admin/class-woo-facturante-admin.php:308
+#: admin/class-woo-facturante-admin.php:345
+#: admin/class-woo-facturante-admin.php:511
+#: admin/class-woo-facturante-admin.php:558
+msgid "Invoice"
+msgstr "Factura"
+
+#: admin/class-woo-facturante-admin.php:322
+#: admin/class-woo-facturante-admin.php:528
+msgid "awaiting invoice"
+msgstr "Esperando factura"
+
+#: admin/class-woo-facturante-admin.php:333
+#: admin/class-woo-facturante-admin.php:543
+msgid "view invoice"
+msgstr "Ver factura"
+
+#: admin/class-woo-facturante-admin.php:369
+msgid "Input parameters"
+msgstr "Parámetros de entrada"
+
+#: admin/class-woo-facturante-admin.php:375
+msgid "User"
+msgstr "Usuario"
+
+#: admin/class-woo-facturante-admin.php:377
+msgid "User provided by Facturante"
+msgstr "Usuario provisto por Facturante"
+
+#: admin/class-woo-facturante-admin.php:381
+msgid "Hash"
+msgstr "Hash "
+
+#: admin/class-woo-facturante-admin.php:383
+msgid "Password provided by Facturante"
+msgstr "Clave provista por Facturante"
+
+#: admin/class-woo-facturante-admin.php:387
+msgid "Organization"
+msgstr "Empresa"
+
+#: admin/class-woo-facturante-admin.php:389
+msgid "Organization name provided by Facturante"
+msgstr "Nombre de empresa provisto por Facturante"
+
+#: admin/class-woo-facturante-admin.php:393
+msgid "Organization ID"
+msgstr "Id de empresa"
+
+#: admin/class-woo-facturante-admin.php:395
+msgid "Organization number provided by Facturante"
+msgstr "Nro. de empresa provisto por Facturante"
+
+#: admin/class-woo-facturante-admin.php:430
+msgid "Invoice prefix"
+msgstr "Punto de venta"
+
+#: admin/class-woo-facturante-admin.php:432
+msgid "Prefix for invoices, i.e: 0004, must be filled with zeros."
+msgstr ""
+"Prefijo de la factura, por ej. 0005, debe estar relleno con ceros hacia la "
+"izquierda"
+
+#: admin/class-woo-facturante-admin.php:478
+msgid "Contact"
+msgstr "Contacto"
+
+#~ msgid "Please enter yor DNI."
+#~ msgstr "Por favor ingrese su DNI."
+
+#~ msgid "Invoice Type"
+#~ msgstr "Tipo de factura"
+
+#~ msgid "Type of invoice to submit to customer. "
+#~ msgstr "Tipo de factura que se enviará al cliente"
+
+#~ msgid "IVA"
+#~ msgstr "IVA"
+
+#~ msgid "IVA %"
+#~ msgstr "IVA %"
+
+#~ msgid "Impositive treatment"
+#~ msgstr "Tratamiento impositivo"

@@ -1,0 +1,31 @@
+﻿Fecha,"Pedido #",Estado,Cliente,Producto(s),"Artículos vendidos",Cupón(es),"Ingresos netos"
+"2020-09-12 09:38:21",15082,processing,returning,,218,,1600.83
+"2020-09-09 12:19:54",14457,on-hold,new,"1× Caballete",1,,8
+"2020-09-09 10:26:33",14380,on-hold,returning,"10× Tapa Metaldeck",10,,840.34
+"2020-09-09 00:25:31",14279,completed,new,,1,,4.2
+"2020-09-08 22:47:39",14268,on-hold,returning,,1,,0.84
+"2020-09-04 08:30:08",14143,on-hold,returning,,17,,42.85
+"2020-09-04 05:54:42",14142,on-hold,new,,1,,4.2
+"2020-09-04 01:09:52",14137,on-hold,returning,"1× Cubierta La Guerrera, 3× Tubería Cerramiento Redonda, 5× Cubierta La Guerrera",9,,42.01
+"2020-09-04 00:48:43",14136,on-hold,returning,,3,,11.76
+"2020-09-04 00:45:32",14135,on-hold,returning,"90× Tapa Metaldeck",90,,3781.51
+"2020-09-04 00:42:48",14134,on-hold,returning,,5,,18.48
+"2020-09-03 22:46:37",13527,processing,returning,"40× Tapa Metaldeck",40,,1680.67
+"2020-09-03 22:04:22",12506,processing,returning,"20× Tapa Metaldeck",20,,1680.67
+"2020-09-02 17:13:10",12248,completed,returning,,2,,16.81
+"2020-09-02 16:27:09",12247,processing,new,"1× Perfil en C",1,,5.88
+"2020-09-02 16:13:19",12244,completed,returning,,50,,840.34
+"2020-09-02 16:12:23",12242,completed,returning,,50,,840.34
+"2020-09-02 16:09:57",12241,completed,returning,,1,,16.81
+"2020-09-02 16:04:52",12240,completed,returning,,2,,33.61
+"2020-09-02 12:27:29",12234,on-hold,returning,,2,,8.56
+"2020-09-02 12:25:46",12233,on-hold,returning,,2,,6.72
+"2020-09-02 10:33:55",12216,processing,returning,,500,,10000
+"2020-09-02 07:59:26",12214,on-hold,returning,"1× Perfil en C",1,,6.72
+"2020-09-02 07:44:34",12213,on-hold,new,,32,,52
+"2020-09-01 13:39:58",12212,on-hold,returning,,4,,14.24
+"2020-09-01 13:31:13",12211,on-hold,returning,,2,,6.04
+"2020-09-01 13:24:26",12210,on-hold,returning,,2,,5
+"2020-09-01 10:47:31",12209,processing,returning,,500,,10000
+"2020-09-01 09:53:59",12208,completed,new,,1,,22.69
+"2020-09-01 02:55:46",12206,on-hold,returning,,23,,33.61

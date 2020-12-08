@@ -1,0 +1,17 @@
+{
+  "name": "thepluginpros/wcv-settings-api",
+  "description": "Backward compatible settings API for WC Vendors.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Brett Porcelli",
+      "email": "brettporcelli@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WCV_Settings\\v1_0_5\\": "/"
+    }
+  }
+}

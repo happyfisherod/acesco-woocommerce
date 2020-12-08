@@ -1,0 +1,27 @@
+2020-09-22T17:32:10+00:00 CRITICAL Uncaught MercadoPagoException: Could not resolve host: api.mercadopago.com in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php:848
+Stack trace:
+#0 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php(946): MPRestClient::exec(Array, '3.0.17')
+#1 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(367): MPRestClient::get(Array, '3.0.17')
+#2 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(69): WC_Woo_Mercado_Pago_Module::get_categories()
+#3 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(61): WC_Woo_Mercado_Pago_Module->__construct()
+#4 /home/acesco93/public_html/stage/wp-includes/class-wp-hook.php(287): WC_Woo_Mercado_Pago_Module::init_mercado_pago_class('')
+#5 /home/acesco93/public_html/stage/wp-includes/c in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php on line 848
+
+2020-09-22T17:32:23+00:00 CRITICAL Uncaught MercadoPagoException: Could not resolve host: api.mercadopago.com in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php:848
+Stack trace:
+#0 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php(946): MPRestClient::exec(Array, '3.0.17')
+#1 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(367): MPRestClient::get(Array, '3.0.17')
+#2 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(69): WC_Woo_Mercado_Pago_Module::get_categories()
+#3 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(61): WC_Woo_Mercado_Pago_Module->__construct()
+#4 /home/acesco93/public_html/stage/wp-includes/class-wp-hook.php(287): WC_Woo_Mercado_Pago_Module::init_mercado_pago_class('')
+#5 /home/acesco93/public_html/stage/wp-includes/c in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php on line 848
+
+2020-09-22T17:32:24+00:00 CRITICAL Uncaught MercadoPagoException: Could not resolve host: api.mercadopago.com in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php:848
+Stack trace:
+#0 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php(946): MPRestClient::exec(Array, '3.0.17')
+#1 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(367): MPRestClient::get(Array, '3.0.17')
+#2 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(69): WC_Woo_Mercado_Pago_Module::get_categories()
+#3 /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/woocommerce-mercadopago.php(61): WC_Woo_Mercado_Pago_Module->__construct()
+#4 /home/acesco93/public_html/stage/wp-includes/class-wp-hook.php(287): WC_Woo_Mercado_Pago_Module::init_mercado_pago_class('')
+#5 /home/acesco93/public_html/stage/wp-includes/c in /home/acesco93/public_html/stage/wp-content/plugins/wanderlust-mp-market/checkout/includes/sdk/lib/mercadopago.php on line 848
+

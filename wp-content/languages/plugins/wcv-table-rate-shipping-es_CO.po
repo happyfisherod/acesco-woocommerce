@@ -1,0 +1,616 @@
+# Copyright (C) 2020 The Plugin Pros
+# This file is distributed under the same license as the WCV Table Rate Shipping package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WCV Table Rate Shipping 2.0.1\n"
+"Report-Msgid-Bugs-To: https://bitbucket.org/thepluginpros/table-rate-"
+"shipping/issues\n"
+"POT-Creation-Date: 2020-08-01 16:57:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-08-25 03:33-0300\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.4\n"
+"Last-Translator: \n"
+"Language: es_CO\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wcv-table-rate-shipping.php:129
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-wcv-table-rate-shipping.php:370
+#: includes/integrations/dokan/class-wcv-trs-dokan-integration.php:116
+#: includes/integrations/wc-vendors/class-wcv-trs-wc-vendors-integration.php:175
+msgid "%s Shipping"
+msgstr "%s Envío"
+
+#. translators: 1: required plugin name, 2: minimum version
+#: includes/class-wcv-table-rate-shipping.php:394
+msgid ""
+"<strong>%1$s needs to be updated.</strong> WCV Payouts requires %1$s %2$s+."
+msgstr ""
+"<strong>%1$s se necesita actualizar.</strong> los pagos WCV requieren %1$s "
+"%2$s+."
+
+#. translators: 1: required plugin name
+#: includes/class-wcv-table-rate-shipping.php:406
+msgid ""
+"<strong>%1$s not detected.</strong> Please install or activate %1$s to use "
+"WCV Payouts."
+msgstr ""
+"<strong>%1$s no detectado.</strong> Por favor instala o activa %1$s para "
+"utilizar pagos WCV."
+
+#. translators: 1 - list of required PHP extensions
+#: includes/class-wcv-table-rate-shipping.php:429
+msgid ""
+"<strong>Required PHP extensions are missing.</strong> WCV Payouts requires "
+"%1$s."
+msgstr ""
+"<strong>Faltan las extensiones de PHP necesarias.</strong> los pagos WCV "
+"requieren %1$s."
+
+#. translators: 1 - required php version
+#: includes/class-wcv-table-rate-shipping.php:439
+msgid ""
+"<strong>PHP needs to be updated.</strong> WCV Payouts requires PHP %1$s+."
+msgstr ""
+"<strong>PHP necesita ser actualizado.</strong> los pagos WCV requieren PHP "
+"%1$s+."
+
+#: includes/class-wcv-table-rate-shipping.php:466
+msgid "Table Rate Shipping is not active."
+msgstr "La tabla tarifaria de envío no está activa."
+
+#: includes/class-wcv-table-rate-shipping.php:467
+msgid ""
+"Please install <a href=\"https://wordpress.org/plugins/wc-vendors/\" target="
+"\"_blank\">WC Vendors</a> or <a href=\"https://wordpress.org/plugins/dokan-"
+"lite/\" target=\"_blank\">Dokan</a> to use Table Rate Shipping."
+msgstr ""
+"Por favor instala <a href=“https://wordpress.org/plugins/wc-vendors/“ "
+"target=“_blank”>WC Vendors</a> o <a href=“https://wordpress.org/plugins/"
+"dokan-lite/“ target=“_blank”>Dokan</a> para usar la tabla tarifaria de "
+"envíos."
+
+#: includes/class-wcv-trs-admin.php:44
+msgid "Edit Tables"
+msgstr "Editar Tablas"
+
+#: includes/class-wcv-trs-admin.php:88
+#: includes/class-wcv-trs-shipping-tables-shortcode.php:53
+msgid "You do not have permission to access this page."
+msgstr "No tienes permisos para acceder a esta página."
+
+#: includes/class-wcv-trs-install.php:122
+msgid "Table Rate Shipping is updating."
+msgstr "La tabla tarifaría de envíos se está actualizando."
+
+#: includes/class-wcv-trs-install.php:126
+msgid "Table Rate Shipping requires an update."
+msgstr "La tabla tarifaría de envíos necesita actualización."
+
+#: includes/class-wcv-trs-install.php:128
+msgid "Run the update"
+msgstr "Ejecuta la actualización"
+
+#: includes/class-wcv-trs-install.php:240
+msgid "Domestic"
+msgstr "Nacional"
+
+#: includes/class-wcv-trs-install.php:247
+msgid "International"
+msgstr "Internacional"
+
+#: includes/class-wcv-trs-method.php:30
+msgid "Table Rate Shipping"
+msgstr "Tabla Tarifaría de Envíos"
+
+#: includes/class-wcv-trs-method.php:58
+msgid "General options"
+msgstr "Opciones Generales"
+
+#: includes/class-wcv-trs-method.php:61
+msgid "Enable/disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: includes/class-wcv-trs-method.php:62
+msgid "Enable shipping method"
+msgstr "Habilitar método de envío"
+
+#: includes/class-wcv-trs-method.php:67
+msgid "Tax status"
+msgstr "Estatus IVA"
+
+#: includes/class-wcv-trs-method.php:71
+msgid "Taxable"
+msgstr "Imponible"
+
+#: includes/class-wcv-trs-method.php:72
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/class-wcv-trs-method.php:77
+msgid "Include tax"
+msgstr "Incluye IVA"
+
+#: includes/class-wcv-trs-method.php:78
+msgid "Calculate shipping AFTER tax is applied"
+msgstr "Calcular envío DESPUES de que se apliquen los impuestos"
+
+#: includes/class-wcv-trs-method.php:83
+msgid "Exclude discount"
+msgstr "Excluir descuento"
+
+#: includes/class-wcv-trs-method.php:84
+msgid "Calculate shipping BEFORE discounts are applied"
+msgstr "Calcule el envío ANTES de que se apliquen los descuentos"
+
+#: includes/class-wcv-trs-method.php:93
+msgid "Display options"
+msgstr "Mostrar opciones"
+
+#: includes/class-wcv-trs-method.php:96
+msgid "Method title"
+msgstr "Título del método"
+
+#: includes/class-wcv-trs-method.php:98
+msgid "Vendor Shipping"
+msgstr "Envío del distribuidor"
+
+#: includes/class-wcv-trs-method.php:99
+msgid "This controls the title that customers see during checkout."
+msgstr "Esto controla el título que ven los clientes durante el pago."
+
+#: includes/class-wcv-trs-method.php:106
+msgid "Hide method title"
+msgstr "Ocultar el título del método"
+
+#: includes/class-wcv-trs-method.php:107
+msgid "Don't show the method title at checkout"
+msgstr "No mostrar el título del método al finalizar la compra"
+
+#: includes/class-wcv-trs-method.php:112
+msgid "Show shipping rates tab"
+msgstr "Mostrar pestaña de tarifas de envío"
+
+#: includes/class-wcv-trs-method.php:113
+msgid "Show a 'Shipping Rates' tab on product pages"
+msgstr "Mostrar “Tarifas de Envíos” en la página de productos"
+
+#: includes/class-wcv-trs-method.php:121
+msgid "Default tables"
+msgstr "Tablas predeterminadas"
+
+#: includes/class-wcv-trs-method.php:122
+msgid ""
+"These shipping tables will be used when a vendor has not entered their own "
+"shipping rates. Vendors can choose to build upon these tables or discard "
+"them and start anew."
+msgstr ""
+"Estas tablas de envío se utilizarán cuando un distribuidor no haya ingresado "
+"sus propias tarifas de envío. Los proveedores pueden optar por construir "
+"sobre estas tablas o descartarlas y comenzar una nueva."
+
+#: includes/class-wcv-trs-method.php:267
+msgid ""
+"This shipping method enables vendors to specify their own shipping rates in "
+"the Vendor Dashboard. Rates can be set based on the quantity, weight, or "
+"subtotal of items in the customer's cart."
+msgstr ""
+"Este método de envío permite a los proveedores especificar sus propias "
+"tarifas de envío en el Panel de proveedores. Las tarifas se pueden "
+"establecer según la cantidad, el peso o el subtotal de los artículos en el "
+"carrito del cliente."
+
+#: includes/class-wcv-trs-method.php:271
+msgid ""
+"Shipping rates are specified in one or more shipping tables, each of which "
+"applies to a specific set of destination countries. Tables can also be "
+"configured to apply to all allowed shipping destinations."
+msgstr ""
+"Las tarifas de envío se especifican en una o más tablas de envío, cada una "
+"de las cuales se aplica a un conjunto específico de países de destino. Las "
+"tablas también se pueden configurar para que se apliquen a todos los "
+"destinos de envío permitidos."
+
+#: includes/class-wcv-trs-method.php:276
+msgid "For more information, please consult the %1$suser documentation%2$s."
+msgstr "Para obtener más información, consulte %1$suser documentation%2$s."
+
+#: includes/class-wcv-trs-method.php:350
+msgid "Free shipping"
+msgstr "Envío gratis"
+
+#: includes/class-wcv-trs-product-tab.php:54 templates/shipping-tab.php:19
+msgid "Shipping Rates"
+msgstr "Tarifario de envíos"
+
+#: includes/class-wcv-trs-table.php:277
+msgid "Table"
+msgstr "Tabla"
+
+#: includes/class-wcv-trs-table.php:296
+msgid "All shipping destinations"
+msgstr "Todos los destinos de envíos"
+
+#: includes/class-wcv-trs-table.php:332
+msgid "%s and %d other region"
+msgid_plural "%s and %d other regions"
+msgstr[0] "%s y %d otra región"
+msgstr[1] "%s y %d otras regiones"
+
+#: includes/class-wcv-trs-table.php:339
+msgid "Everywhere"
+msgstr "En todas partes"
+
+#: includes/class-wcv-trs-table.php:506
+#: includes/class-wcv-trs-tables-list.php:103
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/class-wcv-trs-table.php:508
+#: includes/class-wcv-trs-tables-list.php:102
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: includes/class-wcv-trs-table.php:510
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/class-wcv-trs-tables-list.php:95
+msgid "Your changed data will be lost if you leave this page without saving."
+msgstr "Los datos modificados se perderán si abandona esta página sin guardar."
+
+#: includes/class-wcv-trs-tables-list.php:96
+msgid "Your changes were not saved. Please retry."
+msgstr "Los cambios no fueron guardados. Por favor reintente."
+
+#: includes/class-wcv-trs-tables-list.php:97
+#: includes/views/html-shipping-table-list.php:206
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/class-wcv-trs-tables-list.php:98
+#: includes/views/html-shipping-table-list.php:209
+msgid "No"
+msgstr "No"
+
+#: includes/class-wcv-trs-tables-list.php:101
+#: includes/views/html-shipping-table-list.php:245
+msgid "Number of Items"
+msgstr "Cantidad de ítems"
+
+#: includes/class-wcv-trs-tables-list.php:132
+#: includes/integrations/wc-vendors/class-wcv-trs-wc-vendors-integration.php:113
+msgid "Shipping Tables"
+msgstr "Tabla de envíos"
+
+#: includes/class-wcv-trs-tables-list.php:136
+msgid "Go Back"
+msgstr "Volver"
+
+#: includes/class-wcv-trs-tables-list.php:160
+#: includes/views/html-shipping-table-list.php:290
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: includes/class-wcv-trs-tables-list.php:194
+msgid ""
+"These shipping tables were generated for you automatically. Please choose to "
+"%1$skeep them%2$s or %3$sdelete them%4$s and start from scratch."
+msgstr ""
+"Estas tablas de envío se generaron automáticamente. Por favor elija "
+"%1$smantenerlos%2$s o %3$sbórrelos%4$s para empezar de nuevo."
+
+#: includes/class-wcv-trs-updater.php:142
+msgid ""
+"Table Rate Shipping update complete. Thanks for updating to the latest "
+"version!"
+msgstr ""
+"Actualización de tabla tarifaria de envíos completada. ¡Gracias por "
+"actualizar a la última versión!"
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:44
+msgid "Shipping"
+msgstr "Envío"
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:104
+msgid "You have no permission to view this page"
+msgstr "No tienes permiso para ver esta página."
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:112
+msgid "Shipping functionality is currently disabled by site owner"
+msgstr ""
+"La funcionalidad de envío está actualmente deshabilitada por el "
+"administrador del sitio."
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:132
+#: includes/integrations/wc-vendors/class-wcv-trs-frontend.php:36
+#: includes/integrations/wc-vendors/class-wcv-trs-frontend.php:54
+msgid "Shipping Settings"
+msgstr "Ajustes de Envíos"
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:167
+msgid "Ready to set up table rate shipping? <a href=\"%1$s\">Click here</a>"
+msgstr ""
+"¿Listo para configurar la tabla tarifaría de envíos? <a href=“%1$s”>Click "
+"aquí</a>"
+
+#: includes/integrations/dokan/class-wcv-trs-dokan-frontend.php:173
+msgid "Looking for your old shipping settings? <a href=\"%1$s\">Click here</a>"
+msgstr ""
+"¿Está buscando su configuración de envío anterior? <a href=“%1$s”>Click "
+"aquí</a>"
+
+#: includes/views/html-shipping-table-list.php:21
+#: includes/views/html-shipping-table-list.php:116
+#: includes/views/html-shipping-table-list.php:122
+msgid "Table Name"
+msgstr "Nombre de la Tabla"
+
+#: includes/views/html-shipping-table-list.php:24
+msgid "Region(s)"
+msgstr "Región(es)"
+
+#: includes/views/html-shipping-table-list.php:33
+#: includes/views/html-shipping-table-list.php:57
+msgid "Add shipping table"
+msgstr "Agregar tabla de envío"
+
+#: includes/views/html-shipping-table-list.php:47
+msgid "You don't have any shipping tables."
+msgstr "No tienes ninguna tabla de envíos."
+
+#: includes/views/html-shipping-table-list.php:50
+msgid ""
+"Add as many tables as you need &ndash; customers will be charged using the "
+"first table that applies to their shipping address."
+msgstr ""
+"Agregue tantas tablas como necesite &ndash;a los clientes se les cobrará "
+"utilizando la primera tabla que corresponda a su dirección de envío."
+
+#: includes/views/html-shipping-table-list.php:70
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/views/html-shipping-table-list.php:74
+#: includes/views/html-shipping-table-list.php:319
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/views/html-shipping-table-list.php:91
+msgid "Add Shipping Table"
+msgstr "Agregar Tabla de Envíos"
+
+#: includes/views/html-shipping-table-list.php:95
+msgid "Shipping Tables > %s"
+msgstr "Tabla de Envíos > %s"
+
+#: includes/views/html-shipping-table-list.php:103
+msgid "Close modal panel"
+msgstr "Cerrar panel modal"
+
+#: includes/views/html-shipping-table-list.php:109
+msgid "Table Options"
+msgstr "Opciones de la tabla"
+
+#: includes/views/html-shipping-table-list.php:128
+msgid "Table Regions"
+msgstr "Tabla Regiones"
+
+#: includes/views/html-shipping-table-list.php:133
+msgid "Select regions for this table"
+msgstr "Elija regiones para esta tabla"
+
+#: includes/views/html-shipping-table-list.php:171
+msgid "Limit to specific ZIP/postcodes"
+msgstr "Límite a códigos postales / postales específicos"
+
+#: includes/views/html-shipping-table-list.php:179
+msgid "Table Postcodes"
+msgstr "Tabla Códigos Postales"
+
+#: includes/views/html-shipping-table-list.php:184
+msgid "List 1 postcode per line"
+msgstr "Lista 1 código postal por línea"
+
+#: includes/views/html-shipping-table-list.php:188
+msgid ""
+"Postcodes containing wildcards (e.g. CB23*) or fully numeric ranges (e.g. "
+"<code>90210...99000</code>) are also supported."
+msgstr ""
+"También se admiten códigos postales que contienen comodines (p. Ej., CB23 *) "
+"o rangos completamente numéricos (ej. <code>90210…99000</code>)."
+
+#: includes/views/html-shipping-table-list.php:199
+msgid "Use Table"
+msgstr "Usar Tabla"
+
+#: includes/views/html-shipping-table-list.php:217
+msgid "Handling Fee"
+msgstr "Tasa de tramitación"
+
+#: includes/views/html-shipping-table-list.php:221
+msgid ""
+"Handling fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e."
+"g. 5%. Leave blank to disable."
+msgstr ""
+"Tarifa de manejo sin impuestos. Ingrese una cantidad, Ej. 2,50, o un "
+"porcentaje, Ej. 5%. Déjelo en blanco para deshabilitarlo."
+
+#: includes/views/html-shipping-table-list.php:236
+msgid "Calculation Method"
+msgstr "Método de cálculo"
+
+#: includes/views/html-shipping-table-list.php:244
+msgid "Cart Subtotal"
+msgstr "Subtotal del carrito"
+
+#: includes/views/html-shipping-table-list.php:246
+msgid "Total Weight"
+msgstr "Peso Total"
+
+#: includes/views/html-shipping-table-list.php:259
+msgid "Table Rates"
+msgstr "Tarifario"
+
+#: includes/views/html-shipping-table-list.php:266
+msgid "Add rate"
+msgstr "Agregar Tarifa"
+
+#: includes/views/html-shipping-table-list.php:273
+msgid "Value"
+msgstr "Valor"
+
+#: includes/views/html-shipping-table-list.php:276
+msgid "Equal To and Above"
+msgstr "Igual y superior"
+
+#: includes/views/html-shipping-table-list.php:278
+#: templates/shipping-tab.php:100
+msgid "Shipping Cost"
+msgstr "Costo de Envío"
+
+#: includes/views/html-shipping-table-list.php:305
+msgid "There are no rates for this table."
+msgstr "No hay tarifas para esta tabla."
+
+#: includes/wcv-trs-update-functions.php:27
+msgid "Rest of the World"
+msgstr "Resto del Mundo"
+
+#: includes/wcv-trs-update-functions.php:87
+msgid "Items"
+msgstr "Items"
+
+#: templates/shipping-tab.php:23
+msgid "Shipping Destination"
+msgstr "Destino de envíos"
+
+#: templates/shipping-tab.php:28 templates/shipping-tab.php:29
+msgid "Change"
+msgstr "Cambio"
+
+#: templates/shipping-tab.php:36 templates/shipping-tab.php:39
+msgid "Region"
+msgstr "Región"
+
+#: templates/shipping-tab.php:71
+msgid "Postcode"
+msgstr "Código Postal"
+
+#: templates/shipping-tab.php:75
+msgid "Postal code"
+msgstr "Código Postal"
+
+#: templates/shipping-tab.php:78
+msgid "Update"
+msgstr "Actualizar"
+
+#: templates/shipping-tab.php:86
+msgid "Shipping is not available for the selected destination."
+msgstr "Los envíos no están habilitados para el destino seleccionado."
+
+#: templates/shipping-tab.php:95
+msgid "%s Equal To and Above"
+msgstr "%s Igual y Superior"
+
+#: templates/shipping-tab.php:132
+msgid " + %s handling fee"
+msgstr " + %s tasa de tramitación"
+
+#: templates/shipping-tab.php:141
+msgid " (incl. %s handling fee)"
+msgstr " (Tasa de tramitación incluida %s)"
+
+#. Plugin Name of the plugin/theme
+msgid "WCV Table Rate Shipping"
+msgstr "Tabla Tarifaría de Envíos WCV"
+
+#. Description of the plugin/theme
+msgid ""
+"Allow vendors to set shipping prices based on the quantity, weight, or total "
+"cost of items purchased."
+msgstr ""
+"Permita que los distribuidores establezcan los precios de envío según la "
+"cantidad, el peso o el costo total de los artículos comprados."
+
+#. Author of the plugin/theme
+msgid "The Plugin Pros"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://thepluginpros.com"
+msgstr ""
+
+#: includes/class-wcv-table-rate-shipping.php:208
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr "Hay un resultado disponible, presione enter para seleccionarlo."
+
+#: includes/class-wcv-table-rate-shipping.php:214
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+"Los resultados de %qty% están disponibles, use las teclas de flecha hacia "
+"arriba y hacia abajo para navegar."
+
+#: includes/class-wcv-table-rate-shipping.php:220
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: includes/class-wcv-table-rate-shipping.php:226
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Carga fallida"
+
+#: includes/class-wcv-table-rate-shipping.php:232
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Por favor ingrese 1 o más caracteres"
+
+#: includes/class-wcv-table-rate-shipping.php:238
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Por favor ingrese %qty% o más caracteres"
+
+#: includes/class-wcv-table-rate-shipping.php:244
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Por favor borre 1 caracter"
+
+#: includes/class-wcv-table-rate-shipping.php:250
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Por favor borre %qty% caracteres"
+
+#: includes/class-wcv-table-rate-shipping.php:256
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Solo puede seleccionar 1 ítem"
+
+#: includes/class-wcv-table-rate-shipping.php:262
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Solo puede seleccionar %qty% ítems"
+
+#: includes/class-wcv-table-rate-shipping.php:268
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Cargando más resultados&hellip;"
+
+#: includes/class-wcv-table-rate-shipping.php:274
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Buscando&hellip;"

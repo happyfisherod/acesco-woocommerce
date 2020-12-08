@@ -1,0 +1,1361 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:32:34
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.23                                |7.4.11
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-10-19 22:21:53
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.38
+DB__________________: 5.6.40
+DB TABLES___________: 84
+DB ROWS_____________: 127,147
+DB FILE SIZE________: 43.34MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.11 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://dev.nativapps.com/wp_acesco/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/sjswqqex/dev.nativapps.com/wp_acesco/Native_construyamos_[HASH]_20201019222153_archive.daf"
+SIZE________________: 238.85MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][ISSUE] MSG:Module 'sqlite3' already loaded [CODE:32|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Module 'sqlite3' already loaded [CODE:32|FILE:Unknown|LINE:0]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:36:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.24 -- Build Server: 5.6.40
+FILE SIZE:	dup-database__[HASH].sql (19.08MB)
+TIMEOUT:	5000
+MAXPACK:	368435200
+SQLMODE:	ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/sjswqqex/dev.nativapps.com/wp_acesco/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/sjswqqex/dev.nativapps.com/wp_acesco/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	757
+
+as35co_actionscheduler_actions: (188)
+as35co_actionscheduler_claims: (0)
+as35co_actionscheduler_groups: (5)
+as35co_actionscheduler_logs: (564)
+as35co_commentmeta: (9)
+as35co_comments: (403)
+as35co_db7_forms: (11)
+as35co_dokan_announcement: (0)
+as35co_dokan_follow_store_followers: (4)
+as35co_dokan_orders: (212)
+as35co_dokan_product_map: (198)
+as35co_dokan_refund: (0)
+as35co_dokan_report_abuse_reports: (0)
+as35co_dokan_rma_conversations: (0)
+as35co_dokan_rma_request: (0)
+as35co_dokan_rma_request_product: (0)
+as35co_dokan_shipping_zone_locations: (2)
+as35co_dokan_shipping_zone_methods: (27)
+as35co_dokan_vendor_balance: (212)
+as35co_dokan_withdraw: (0)
+as35co_duplicator_packages: (0)
+as35co_e_portfolio: (41)
+as35co_fake_cart_products: (5317)
+as35co_links: (0)
+as35co_options: (997)
+as35co_postmeta: (87386)
+as35co_posts: (4563)
+as35co_remove_menu_admin_profiles: (1)
+as35co_revslider_css: (109)
+as35co_revslider_css_bkp: (47)
+as35co_revslider_layer_animations: (0)
+as35co_revslider_layer_animations_bkp: (0)
+as35co_revslider_navigations: (2)
+as35co_revslider_navigations_bkp: (0)
+as35co_revslider_sliders: (8)
+as35co_revslider_sliders_bkp: (0)
+as35co_revslider_slides: (24)
+as35co_revslider_slides_bkp: (0)
+as35co_revslider_static_slides: (7)
+as35co_revslider_static_slides_bkp: (0)
+as35co_term_relationships: (14032)
+as35co_term_taxonomy: (313)
+as35co_termmeta: (976)
+as35co_terms: (313)
+as35co_usermeta: (7449)
+as35co_users: (259)
+as35co_wc_admin_note_actions: (15)
+as35co_wc_admin_notes: (12)
+as35co_wc_category_lookup: (7)
+as35co_wc_customer_lookup: (57)
+as35co_wc_download_log: (0)
+as35co_wc_order_coupon_lookup: (0)
+as35co_wc_order_product_lookup: (294)
+as35co_wc_order_stats: (240)
+as35co_wc_order_tax_lookup: (131)
+as35co_wc_product_meta_lookup: (1817)
+as35co_wc_reserved_stock: (0)
+as35co_wc_tax_rate_classes: (2)
+as35co_wc_webhooks: (0)
+as35co_wcv_trs_table_locations: (24)
+as35co_wcv_trs_table_rates: (74)
+as35co_wcv_trs_tables: (30)
+as35co_woocommerce_api_keys: (0)
+as35co_woocommerce_attribute_taxonomies: (10)
+as35co_woocommerce_downloadable_product_permissions: (0)
+as35co_woocommerce_log: (0)
+as35co_woocommerce_order_itemmeta: (6018)
+as35co_woocommerce_order_items: (659)
+as35co_woocommerce_payment_tokenmeta: (0)
+as35co_woocommerce_payment_tokens: (0)
+as35co_woocommerce_sessions: (6)
+as35co_woocommerce_shipping_zone_locations: (1)
+as35co_woocommerce_shipping_zone_methods: (2)
+as35co_woocommerce_shipping_zones: (1)
+as35co_woocommerce_tax_rate_locations: (0)
+as35co_woocommerce_tax_rates: (1)
+as35co_woof_query_cache: (0)
+as35co_wpmailsmtp_tasks_meta: (39)
+as35co_yoast_indexable: (3625)
+as35co_yoast_indexable_hierarchy: (635)
+as35co_yoast_migrations: (18)
+as35co_yoast_primary_term: (6)
+as35co_yoast_seo_links: (171)
+as35co_yoast_seo_meta: (3403)
+Removed '1320' cache/transient rows
+
+INSERT DATA RUNTIME: 2.4925 sec.
+STEP-2 COMPLETE @ 10:36:10 - RUNTIME: 2.5367 sec.
+[PHP ERR][ISSUE] MSG:Module 'sqlite3' already loaded [CODE:32|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Module 'sqlite3' already loaded [CODE:32|FILE:Unknown|LINE:0]
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:37:00
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Construyamos"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/acesco93/public_html/stage"
+path_new______________: "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+siteurl_______________: "https://dev.nativapps.com/wp_acesco"
+url_old_______________: "https://www.acesco.com.co/stage"
+url_new_______________: "https://dev.nativapps.com/wp_acesco"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "desarrollo@theorangelab.co"
+wp_nickname___________: ""
+wp_first_name_________: "Ruben"
+wp_last_name__________: "Galindo"
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "as35co_actionscheduler_actions"__________________[ROWS:   188][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_actionscheduler_claims"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_actionscheduler_groups"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_actionscheduler_logs"_____________________[ROWS:   564][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_commentmeta"______________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_comments"_________________________________[ROWS:   403][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_db7_forms"________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_announcement"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_follow_store_followers"_____________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_orders"_____________________________[ROWS:   212][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_product_map"________________________[ROWS:   198][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_refund"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_report_abuse_reports"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_rma_conversations"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_rma_request"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_rma_request_product"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_dokan_shipping_zone_locations"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_shipping_zone_methods"______________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_vendor_balance"_____________________[ROWS:   212][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_dokan_withdraw"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_duplicator_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_e_portfolio"______________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_fake_cart_products"_______________________[ROWS:  5317][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_options"__________________________________[ROWS:   997][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_postmeta"_________________________________[ROWS: 87386][PG:  25][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_posts"____________________________________[ROWS:  4563][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_remove_menu_admin_profiles"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_css"____________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_css_bkp"________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_layer_animations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_revslider_layer_animations_bkp"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_revslider_navigations"____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_navigations_bkp"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_revslider_sliders"________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_sliders_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_revslider_slides"_________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_slides_bkp"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_revslider_static_slides"__________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_revslider_static_slides_bkp"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_term_relationships"_______________________[ROWS: 14032][PG:   5][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_term_taxonomy"____________________________[ROWS:   313][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_termmeta"_________________________________[ROWS:   976][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_terms"____________________________________[ROWS:   313][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_usermeta"_________________________________[ROWS:  7449][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_users"____________________________________[ROWS:   259][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_admin_note_actions"____________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_admin_notes"___________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_category_lookup"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_customer_lookup"_______________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_download_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_wc_order_coupon_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_wc_order_product_lookup"__________________[ROWS:   294][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_order_stats"___________________________[ROWS:   240][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_order_tax_lookup"______________________[ROWS:   131][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_product_meta_lookup"___________________[ROWS:  1817][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_reserved_stock"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_wc_tax_rate_classes"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wc_webhooks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_wcv_trs_table_locations"__________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wcv_trs_table_rates"______________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_wcv_trs_tables"___________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_api_keys"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_attribute_taxonomies"_________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_order_itemmeta"_______________[ROWS:  6018][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_order_items"__________________[ROWS:   659][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_payment_tokenmeta"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_payment_tokens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_sessions"_____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_shipping_zone_locations"______[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_shipping_zone_methods"________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_shipping_zones"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woocommerce_tax_rate_locations"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_woocommerce_tax_rates"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_woof_query_cache"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "as35co_wpmailsmtp_tasks_meta"____________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_indexable"__________________________[ROWS:  3625][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_indexable_hierarchy"________________[ROWS:   635][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_migrations"_________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_primary_term"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_seo_links"__________________________[ROWS:   171][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+
+EVALUATE TABLE: "as35co_yoast_seo_meta"___________________________[ROWS:  3403][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/acesco93/public_html/stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  2:"\/home\/acesco93\/public_html\/stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  3:"%2Fhome%2Facesco93%2Fpublic_html%2Fstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  4:"\home\acesco93\public_html\stage" ================> "/home/sjswqqex/dev.nativapps.com/wp_acesco"
+	SEARCH  5:"\\home\\acesco93\\public_html\\stage" ============> "\/home\/sjswqqex\/dev.nativapps.com\/wp_acesco"
+	SEARCH  6:"%5Chome%5Cacesco93%5Cpublic_html%5Cstage" ========> "%2Fhome%2Fsjswqqex%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH  7:"//www.acesco.com.co/stage" =======================> "//dev.nativapps.com/wp_acesco"
+	SEARCH  8:"\/\/www.acesco.com.co\/stage" ====================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH  9:"%2F%2Fwww.acesco.com.co%2Fstage" =================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 10:"//acesco.com.co/stage" ===========================> "//dev.nativapps.com/wp_acesco"
+	SEARCH 11:"\/\/acesco.com.co\/stage" ========================> "\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 12:"%2F%2Facesco.com.co%2Fstage" =====================> "%2F%2Fdev.nativapps.com%2Fwp_acesco"
+	SEARCH 13:"http://dev.nativapps.com/wp_acesco" ==============> "https://dev.nativapps.com/wp_acesco"
+	SEARCH 14:"http:\/\/dev.nativapps.com\/wp_acesco" ===========> "https:\/\/dev.nativapps.com\/wp_acesco"
+	SEARCH 15:"http%3A%2F%2Fdev.nativapps.com%2Fwp_acesco" ======> "https%3A%2F%2Fdev.nativapps.com%2Fwp_acesco"
+--------------------------------------
+SCANNED:	Tables:84 	|	 Rows:140977 	|	 Cells:845605 
+UPDATED:	Tables:10 	|	 Rows:8430 	|	 Cells:10034 
+ERRORS:		0 
+RUNTIME:	5.378700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'Ruben Galindo' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""sjswqqex_nat_wp_acesco""
+	UPDATE DB_USER ""sjswqqex_nat_wp_acesco""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:37:06 - RUNTIME: 5.4165 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
+[PHP ERR][ISSUE] MSG:Module 'sqlite3' already loaded [CODE:32|FILE:Unknown|LINE:0]

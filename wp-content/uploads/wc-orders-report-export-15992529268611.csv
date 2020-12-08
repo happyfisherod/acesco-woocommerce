@@ -1,0 +1,78 @@
+﻿Fecha,"Pedido #",Estado,Cliente,Producto(s),"Artículos vendidos",Cupón(es),"Ingresos netos"
+"2020-09-04 08:30:08",14143,on-hold,returning,"7× Caballete, 6× Rollo Galvanizado, 4× Lámina",17,,42.85
+"2020-09-04 05:54:42",14142,on-hold,new,"1× Cubierta La Guerrera",1,,4.2
+"2020-09-04 01:09:52",14137,on-hold,returning,"1× Cubierta La Guerrera, 3× Tubería Cerramiento Redonda, 5× Cubierta La Guerrera",9,,42.01
+"2020-09-04 00:48:43",14136,on-hold,returning,"1× Ángulo, 1× Caballete, 1× Rollo Galvanizado",3,,11.76
+"2020-09-04 00:45:32",14135,on-hold,returning,"90× Tapa Metaldeck",90,,3781.51
+"2020-09-04 00:42:48",14134,on-hold,returning,"1× Ángulo, 1× Caballete, 1× Canaleta, 1× Tapa Metaldeck, 1× Metaldeck 2""",5,,18.48
+"2020-09-03 22:46:37",13527,processing,returning,"40× Tapa Metaldeck",40,,1680.67
+"2020-09-03 22:04:22",12506,processing,returning,"20× Tapa Metaldeck",20,,1680.67
+"2020-09-02 17:13:10",12248,completed,returning,"2× Cubierta Master 1000",2,,16.81
+"2020-09-02 16:27:09",12247,processing,new,"1× Perfil en C",1,,5.88
+"2020-09-02 16:13:19",12244,on-hold,returning,,50,,840.34
+"2020-09-02 12:27:29",12234,on-hold,returning,,2,,8.56
+"2020-09-02 12:25:46",12233,on-hold,returning,"2× Cubierta Master 1000",2,,6.72
+"2020-09-02 10:33:55",12216,processing,returning,,500,,10000
+"2020-09-02 07:59:26",12214,on-hold,returning,"1× Perfil en C",1,,6.72
+"2020-09-02 07:44:34",12213,on-hold,new,,32,,52
+"2020-09-01 13:39:58",12212,on-hold,returning,,4,,14.24
+"2020-09-01 13:31:13",12211,on-hold,returning,,2,,6.04
+"2020-09-01 13:24:26",12210,on-hold,returning,,2,,5
+"2020-09-01 10:47:31",12209,processing,returning,,500,,10000
+"2020-09-01 09:53:59",12208,completed,new,,1,,22.69
+"2020-09-01 02:55:46",12206,on-hold,returning,,23,,33.61
+"2020-08-31 22:33:24",11982,completed,new,,3,,20
+"2020-08-31 16:37:26",11980,on-hold,returning,,60,,504.2
+"2020-08-31 16:12:03",11785,completed,,,0,,'-462
+"2020-08-31 09:28:09",11940,on-hold,new,,1,,3
+"2020-08-28 23:16:04",11938,on-hold,new,,5,,30
+"2020-08-28 18:21:15",11935,processing,returning,,10000,,10000
+"2020-08-28 16:48:24",11930,processing,returning,,9800,,9800
+"2020-08-28 16:40:04",11929,on-hold,returning,,2050,,12058.82
+"2020-08-28 16:28:41",11928,processing,returning,,9480,,9480
+"2020-08-28 16:00:59",11926,processing,returning,,9800,,9800
+"2020-08-28 15:37:03",11924,processing,returning,,9800,,9800
+"2020-08-28 09:36:10",11896,processing,returning,,10000,,10000
+"2020-08-28 08:16:22",11895,on-hold,new,,21,,395.8
+"2020-08-27 09:34:01",11859,on-hold,returning,,30,,1800
+"2020-08-26 12:10:25",11814,processing,returning,,5000,,10000
+"2020-08-26 09:22:50",11795,processing,returning,,2000,,10000
+"2020-08-25 18:36:46",11786,on-hold,returning,,65,,928.57
+"2020-08-25 18:29:47",11785,refunded,new,,22,,388.24
+"2020-08-25 15:52:06",11742,completed,returning,,1003,,1003
+"2020-08-25 15:28:42",11740,processing,returning,,1002,,1002
+"2020-08-25 15:27:32",11739,completed,returning,,102,,102
+"2020-08-25 15:18:17",11738,processing,returning,,1001,,1001
+"2020-08-25 12:27:17",11730,processing,returning,,150,,2521.01
+"2020-08-24 17:26:05",11729,on-hold,returning,,65,,928.57
+"2020-08-24 17:20:33",11728,on-hold,new,,22,,388.24
+"2020-08-24 14:29:27",11723,completed,returning,,132,,594
+"2020-08-24 13:19:39",11720,on-hold,new,,1,,7.56
+"2020-08-21 18:18:05",11717,on-hold,returning,,65,,928.57
+"2020-08-21 18:14:22",11716,on-hold,new,,22,,388.24
+"2020-08-21 17:18:42",11715,on-hold,returning,,31,,1094.12
+"2020-08-21 16:46:55",11713,on-hold,returning,,65,,1147.06
+"2020-08-21 16:45:12",11712,on-hold,new,,22,,388.24
+"2020-08-21 14:54:15",11711,on-hold,returning,,65,,928.57
+"2020-08-21 14:49:30",11710,on-hold,new,,22,,388.24
+"2020-08-21 10:13:21",11708,on-hold,returning,,83,,1464.71
+"2020-08-21 10:09:37",11707,on-hold,new,,95,,1987.39
+"2020-08-21 08:17:06",11702,on-hold,returning,,1,,35.29
+"2020-08-20 23:00:13",11700,on-hold,returning,,65,,928.57
+"2020-08-20 22:54:00",11699,on-hold,returning,,101,,308
+"2020-08-20 22:53:53",11698,on-hold,new,,52,,1068.91
+"2020-08-20 22:44:49",11697,on-hold,returning,,110,,1100
+"2020-08-20 22:00:24",11675,completed,new,,151,,906
+"2020-08-20 21:28:49",11674,on-hold,returning,,3,,17.56
+"2020-08-20 17:23:45",11669,processing,new,,96,,924
+"2020-08-20 14:24:47",11648,processing,new,,1000,,10924.37
+"2020-08-20 12:05:41",11612,processing,returning,,52,,1194.96
+"2020-08-20 11:54:58",11610,processing,returning,,65,,928.57
+"2020-08-20 07:11:05",11581,processing,returning,,93,,937.82
+"2020-08-19 22:16:35",11121,processing,returning,,68,,914.29
+"2020-08-19 21:38:53",11114,processing,returning,,123,,459.78
+"2020-08-19 19:19:28",11096,processing,returning,,153,,1014.4
+"2020-08-18 11:39:52",10871,processing,new,,300,,2016.8
+"2020-08-14 16:05:08",10864,processing,returning,,199,,2006.72
+"2020-08-14 15:51:35",10863,processing,new,,230,,1739.5
+"2020-08-14 10:25:31",10862,processing,returning,,300,,3781.51

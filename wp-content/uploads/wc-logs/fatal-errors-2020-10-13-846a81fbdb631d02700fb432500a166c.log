@@ -1,0 +1,10 @@
+2020-10-13T17:47:47+00:00 CRITICAL Uncaught Error: Call to undefined function okan_get_current_user_id() in /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/templates/dashboard/big-counter-widget.php:24
+Stack trace:
+#0 /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/includes/functions.php(893): include()
+#1 /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Dashboard.php(77): dokan_get_template_part('dashboard/big-c...', '', Array)
+#2 /home/acesco93/public_html/stage/wp-includes/class-wp-hook.php(287): WeDevs\Dokan\Dashboard\Templates\Dashboard->get_big_counter_widgets('')
+#3 /home/acesco93/public_html/stage/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/acesco93/public_html/stage/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/templates/dashboard/dashboard.php(68): do_action('dokan_dashboard...')
+#6 /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/includes/ en /home/acesco93/public_html/stage/wp-content/plugins/dokan-lite/templates/dashboard/big-counter-widget.php en la línea 24
+

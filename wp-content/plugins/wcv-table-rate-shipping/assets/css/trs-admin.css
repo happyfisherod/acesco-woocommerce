@@ -1,0 +1,62 @@
+.wcv-trs-table-list {
+    margin-top: .67em;
+}
+
+.form-table .wcv-trs-table-list {
+    margin-top: 0;
+}
+
+.wcv-trs-rate-threshold-before,
+.wcv-trs-rate-threshold-after {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wcv-trs-rate-threshold-input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wc-backbone-modal.wc-backbone-modal-shipping-table,
+.wc-backbone-modal.wc-backbone-modal-shipping-table .wc-backbone-modal-content {
+    width: 700px;
+}
+
+.wc-backbone-modal-shipping-table table.form-table td:last-child {
+    width: 65%;
+}
+
+.wc-backbone-modal-shipping-table table.form-table input,
+.wc-backbone-modal-shipping-table table.form-table select {
+    width: 100%;
+}
+
+.wc-shipping-zone-rows .edit {
+    display: none;
+}
+
+tr#default_tables:hover .row-actions {
+    position: relative;
+}
+
+tr#default_tables tr:hover .row-actions {
+    position: static;
+}
+
+.wc-backbone-modal-main article table.widefat tbody td.wcv-trsrates select {
+    width: auto;
+}
+
+.wc-backbone-modal-main article table.widefat tbody td.wcv-trsrates,
+.wc-backbone-modal-main article table.widefat tbody td.wcv-trs-rate-threshold {
+    vertical-align: top;
+}
+
+.wp-admin .wcv-trsrates select {
+    min-height: 30px;
+    line-height: 2;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: top;
+}

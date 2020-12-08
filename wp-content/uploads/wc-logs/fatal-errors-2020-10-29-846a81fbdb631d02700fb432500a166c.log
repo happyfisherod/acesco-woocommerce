@@ -1,0 +1,4 @@
+2020-10-29T00:05:14+00:00 CRITICAL Cannot redeclare ElementorPro\Modules\Woocommerce\WcTemplates\Cart\elementor_pro_render_mini_cart_item() (previously declared in /home/sjswqqex/dev.nativapps.com/wp_acesco/wp-content/plugins/elementor-pro/modules/woocommerce/wc-templates/cart/mini-cart.php:8) en /home/sjswqqex/dev.nativapps.com/wp_acesco/wp-content/plugins/elementor-pro/modules/woocommerce/wc-templates/cart/mini-cart.php en la línea 8
+
+2020-10-29T00:06:47+00:00 CRITICAL Cannot redeclare ElementorPro\Modules\Woocommerce\WcTemplates\Cart\elementor_pro_render_mini_cart_item() (previously declared in /home/sjswqqex/dev.nativapps.com/wp_acesco/wp-content/plugins/elementor-pro/modules/woocommerce/wc-templates/cart/mini-cart.php:8) en /home/sjswqqex/dev.nativapps.com/wp_acesco/wp-content/plugins/elementor-pro/modules/woocommerce/wc-templates/cart/mini-cart.php en la línea 8
+
